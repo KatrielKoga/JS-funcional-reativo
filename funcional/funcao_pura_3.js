@@ -1,8 +1,8 @@
 let qtdeExecucoes = 0;
 
-// função pura!
+// função inpura!
 function somar(a, b) {
-	qtdeExecucoes++;
+	qtdeExecucoes++; // efeito colateral observavel
 	return a + b;
 }
 
